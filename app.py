@@ -9,11 +9,11 @@ from email.mime.multipart import MIMEMultipart
 
 app = Flask(__name__)
 SUPABASE_URL = "https://jmuxeilfjmzrxeiimjco.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImptdXhlaWxmam16cnhlaWltamNvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzEzNzc2OTksImV4cCI6MjA4Njk1MzY5OX0.yi5EuAYV1hNolmj1otlL27A1cosJW_PUduFNsACVyHk"
+SUPABASE_KEY = "SUPABASE_KEY_HERE"
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 JWT_SECRET = "MY_SECRET_KEY"
-EMAIL_USER = "userotpauth@gmail.com"
-EMAIL_PASS = "focawtqddoxdpnat"
+EMAIL_USER = "FROM_EMAIL_HERE"
+EMAIL_PASS = "EMAIL_APP_PASSWORD"
 
 # REGISTER
 
